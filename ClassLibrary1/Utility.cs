@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp0916_1
+namespace ClassLibrary1
 {
-    class Utility
+    public class Utility    //default : internal이므로 다른 프로젝트에서 참조할 때 public설정
     {
         public static int ConvertInt(string str)   //문자열을 int로 형변환
         {
